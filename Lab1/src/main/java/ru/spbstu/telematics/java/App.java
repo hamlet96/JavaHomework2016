@@ -23,8 +23,6 @@ public class App
 	
     public static void main( String[] args )
     {
-    	
-        
         Vector a = new Vector(5,6);
         Vector b = new Vector(4,10);
         System.out.println(VecSum(a,b));
