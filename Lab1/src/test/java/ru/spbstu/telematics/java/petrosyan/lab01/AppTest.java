@@ -12,9 +12,6 @@ import static org.junit.Assert.*;
  */
 public class AppTest {
     private static final double DELTA = 1e-15;
-    @Test
-    public void main() throws Exception {
-    }
 
     @Test(expected = DimensionMismatchException.class)
     public void testVectorSum() {
